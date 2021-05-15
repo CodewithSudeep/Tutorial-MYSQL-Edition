@@ -56,7 +56,7 @@ echo "Connected successfully";
 //     echo mysqli_errno($conn);
 // }
 
-$sql3 = "SELECT * from users";
+$sql3 = "SELECT * from user";
 
 $result4 = mysqli_query($conn, $sql3);
 
