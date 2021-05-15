@@ -3,7 +3,7 @@
 $servername = "localhost"; //server name
 $username = "root"; // default mysql username
 $password = ""; // default password
-$database = "myfirstdatabase";
+$database = "my first database";
 
 
 //mysqli_connect()
@@ -15,4 +15,6 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
+echo "Connected successfully";
+?>
 
